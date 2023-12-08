@@ -15,6 +15,6 @@ namespace ppppp
         public Form1()
         {
             InitializeComponent();
-        }
+        }//написать программу генерирует логин пароль через батон переключается 
     }
 }
