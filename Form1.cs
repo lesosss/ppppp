@@ -48,11 +48,11 @@ namespace ppppp
             }
         }
 
-        private int factarial(int n)
+        private int Factarial(int n)
         {
             if (n == 1) return 1;
 
-            return n * factarial(n - 1);
+            return n * Factarial(n - 1);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -75,7 +75,7 @@ namespace ppppp
                     return;
                 }
 
-                label8.Text = ((factarial(n + m - 1) / (factarial(m) * factarial(n - 1))).ToString());
+                label8.Text = ((Factarial(n + m - 1) / (Factarial(m) * Factarial(n - 1))).ToString());
             }
 
             if (BtnPlacement.Checked)
@@ -113,7 +113,7 @@ namespace ppppp
                     return;
                 }
 
-                label8.Text = (factarial(n + m) / (factarial(n) * factarial(m))).ToString();
+                label8.Text = (Factarial(n + m) / (Factarial(n) * Factarial(m))).ToString();
 
             }
         }

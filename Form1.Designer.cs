@@ -56,7 +56,7 @@
             // 
             // label8
             // 
-            this.label8.BackColor = System.Drawing.Color.OldLace;
+            this.label8.BackColor = System.Drawing.Color.Snow;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.Location = new System.Drawing.Point(487, 438);
@@ -67,7 +67,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Linen;
+            this.button1.BackColor = System.Drawing.Color.LightCyan;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(306, 430);
             this.button1.Name = "button1";
@@ -79,7 +79,7 @@
             // 
             // panel33
             // 
-            this.panel33.BackColor = System.Drawing.Color.Bisque;
+            this.panel33.BackColor = System.Drawing.Color.Linen;
             this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel33.Controls.Add(this.textBox5);
             this.panel33.Controls.Add(this.textBox6);
@@ -92,7 +92,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox5.Location = new System.Drawing.Point(27, 156);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(126, 20);
@@ -100,7 +100,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox6.Location = new System.Drawing.Point(27, 64);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(126, 20);
@@ -128,7 +128,7 @@
             // 
             // panel22
             // 
-            this.panel22.BackColor = System.Drawing.Color.Bisque;
+            this.panel22.BackColor = System.Drawing.Color.Linen;
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel22.Controls.Add(this.textBox3);
             this.panel22.Controls.Add(this.textBox4);
@@ -141,7 +141,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox3.Location = new System.Drawing.Point(27, 156);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(126, 20);
@@ -149,7 +149,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox4.Location = new System.Drawing.Point(27, 64);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(126, 20);
@@ -177,7 +177,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.Bisque;
+            this.panel11.BackColor = System.Drawing.Color.Linen;
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Controls.Add(this.textBox2);
             this.panel11.Controls.Add(this.textBox1);
@@ -190,7 +190,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox2.Location = new System.Drawing.Point(31, 156);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(126, 20);
@@ -198,7 +198,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox1.Location = new System.Drawing.Point(31, 64);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(126, 20);
@@ -226,20 +226,22 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.label1.BackColor = System.Drawing.Color.Linen;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(182, 42);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(179, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(426, 31);
+            this.label1.Size = new System.Drawing.Size(456, 31);
             this.label1.TabIndex = 12;
             this.label1.Text = "Выберете элемент комбинаторики";
             // 
             // BtnPermutations
             // 
             this.BtnPermutations.AutoSize = true;
+            this.BtnPermutations.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BtnPermutations.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPermutations.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnPermutations.Location = new System.Drawing.Point(515, 123);
@@ -248,12 +250,13 @@
             this.BtnPermutations.TabIndex = 11;
             this.BtnPermutations.TabStop = true;
             this.BtnPermutations.Text = "Перестановка";
-            this.BtnPermutations.UseVisualStyleBackColor = true;
+            this.BtnPermutations.UseVisualStyleBackColor = false;
             this.BtnPermutations.CheckedChanged += new System.EventHandler(this.BtnPermutations_CheckedChanged);
             // 
             // BtnPlacement
             // 
             this.BtnPlacement.AutoSize = true;
+            this.BtnPlacement.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BtnPlacement.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPlacement.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnPlacement.Location = new System.Drawing.Point(285, 123);
@@ -262,12 +265,13 @@
             this.BtnPlacement.TabIndex = 10;
             this.BtnPlacement.TabStop = true;
             this.BtnPlacement.Text = "Размещение";
-            this.BtnPlacement.UseVisualStyleBackColor = true;
+            this.BtnPlacement.UseVisualStyleBackColor = false;
             this.BtnPlacement.CheckedChanged += new System.EventHandler(this.BtnPlacement_CheckedChanged);
             // 
             // BtnСombination
             // 
             this.BtnСombination.AutoSize = true;
+            this.BtnСombination.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BtnСombination.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnСombination.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnСombination.Location = new System.Drawing.Point(80, 123);
@@ -276,14 +280,14 @@
             this.BtnСombination.TabIndex = 9;
             this.BtnСombination.TabStop = true;
             this.BtnСombination.Text = "Сочетание";
-            this.BtnСombination.UseVisualStyleBackColor = true;
+            this.BtnСombination.UseVisualStyleBackColor = false;
             this.BtnСombination.CheckedChanged += new System.EventHandler(this.BtnСombination_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(790, 507);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button1);
